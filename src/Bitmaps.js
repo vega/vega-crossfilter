@@ -16,7 +16,8 @@ export default function Bitmaps() {
     data: function() { return data; },
 
     seen: function() {
-      return (seen = lengthen(seen, data.length));
+      seen = lengthen(seen, data.length);
+      return seen;
     },
 
     add: function(array) {
